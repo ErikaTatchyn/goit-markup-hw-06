@@ -505,6 +505,7 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -526,11 +527,9 @@
                 pattern="[a-zA-Zа-яА-ЯіІїЇʼҐґєЄ]+"
                 name="user_name"
               />
-              <span class="modal-form-icon">
-                <svg class="modal-form-svg">
-                  <use href="./images/svg/symbol-defs.svg#icon-name"></use>
-                </svg>
-              </span>
+              <svg class="modal-form-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-name"></use>
+              </svg>
             </span>
           </label>
           <label class="modal-form-field">
@@ -542,11 +541,9 @@
                 placeholder=""
                 name="user_phone"
               />
-              <span class="modal-form-icon">
-                <svg class="modal-form-svg">
-                  <use href="./images/svg/symbol-defs.svg#icon-tel"></use>
-                </svg>
-              </span>
+              <svg class="modal-form-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-tel"></use>
+              </svg>
             </span>
           </label>
           <label class="modal-form-field">
@@ -558,11 +555,9 @@
                 placeholder=""
                 name="user_email"
               />
-              <span class="modal-form-icon">
-                <svg class="modal-form-svg">
-                  <use href="./images/svg/symbol-defs.svg#icon-email"></use>
-                </svg>
-              </span>
+              <svg class="modal-form-svg">
+                <use href="./images/svg/symbol-defs.svg#icon-email"></use>
+              </svg>
             </span>
           </label>
           <label class="modal-form-field">
@@ -586,7 +581,11 @@
                 href="./images/svg/symbol-defs.svg#icon-check"
               ></use>
             </svg>
-            Погоджуюся з розсилкою та приймаю&nbsp;<a href="">умови договору</a>
+            Погоджуюся з розсилкою та приймаю&nbsp;<a
+              href=""
+              class="modal-form-own-checkbox-text"
+              >Умови договору</a
+            >
           </label>
           <button type="submit" class="modal-form-submit">Відправити</button>
         </form>
