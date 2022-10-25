@@ -693,7 +693,7 @@ img {
   transition: background-color var(--transition-dur-and-func);
 }
 
-.modal-form-input:focus + .modal-form-icon {
+.modal-form-input:focus + .modal-form-svg {
   fill: var(--accent-color);
 }
 
@@ -730,7 +730,7 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .modal-form-checkbox {
@@ -767,7 +767,7 @@ img {
 }
 
 .modal-form-own-checkbox-text {
-  columns: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .modal-form-submit {

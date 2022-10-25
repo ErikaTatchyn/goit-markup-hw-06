@@ -482,7 +482,7 @@
         </div>
         <div class="email-inputs-wrapper">
           <p class="footer-socials-p">підпишіться на розсилку</p>
-          <div class="email-inputs">
+          <form class="email-inputs">
             <label class="email-field">
               <span class="email-input-wrapper">
                 <input
@@ -493,15 +493,13 @@
                 />
               </span>
             </label>
-            <button type="submit" class="email-form-submit">
+            <button type="submit" class="button email-form-submit">
               <span class="email-form-span">Підписатися</span>
-              <span class="send-icon">
-                <svg class="send-svg" width="24" height="24">
-                  <use href="./images/svg/symbol-defs.svg#icon-send"></use>
-                </svg>
-              </span>
+              <svg class="send-svg" width="24" height="24">
+                <use href="./images/svg/symbol-defs.svg#icon-send"></use>
+              </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -560,7 +558,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-form-field">
+          <label class="modal-form-field-last">
             <span class="modal-form-input-desc">Коментар</span>
             <textarea
               name="user_message"
@@ -587,7 +585,9 @@
               >Умови договору</a
             >
           </label>
-          <button type="submit" class="modal-form-submit">Відправити</button>
+          <button type="submit" class="button modal-form-submit">
+            Відправити
+          </button>
         </form>
       </div>
     </div>
